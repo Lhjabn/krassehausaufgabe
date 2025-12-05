@@ -15,15 +15,12 @@ public class Mensch {
         alter = 2025-gebJahr;
     }
     public String getName() {
-        System.out.println(name);
         return name;
     }
     public int getGebJahr() {
-        System.out.println(gebJahr);
         return gebJahr;
     }
     public int getAlter() {
-        System.out.println(alter);
         return alter;
     }
 

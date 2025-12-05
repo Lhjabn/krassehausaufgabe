@@ -6,14 +6,14 @@ public class Zahl {
     public boolean positive = false;
     public int num = -160;
 
-    public void seteven() {
+    public void setEven() {
         if(num%2==0){
             even = true;
         }
         else{
             even = false;
         }
-        System.out.println(even);
+
 
     }
     public void setSmall() {
@@ -23,7 +23,7 @@ public class Zahl {
         else{
             small = false;
         }
-        System.out.println(small);
+
     }
     public void setPositive() {
         if(num>0){
@@ -32,7 +32,7 @@ public class Zahl {
         else{
             positive = false;
         }
-        System.out.println(positive);
+
     }
 
 

@@ -4,7 +4,7 @@ public class H2_main {
     public static void main(String[] args) {
         int[] krass = change(new int[]{2, 7, 1, 9}, new int[]{2, 7, 1, 9}, 3, 2);
 
-        System.out.println(Arrays.toString(krass));
+
     }
     public static int[] change(int[] a, int[] b, int start, int end) {
 
